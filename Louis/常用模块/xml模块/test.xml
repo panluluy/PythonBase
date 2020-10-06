@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<classinfo>
+    <person name="Jerry">
+        <sex default="man" />
+        <age birthday="2010">10</age>
+    </person>
+    <person name="Tom">
+        <sex default="man" />
+        <age birthday="2015">5</age>
+    </person>
+</classinfo>
