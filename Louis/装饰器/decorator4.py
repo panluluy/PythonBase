@@ -1,18 +1,20 @@
 __author__ = "Louis-Pan"
 
-username,password = 'pan','pan123'
+# username,password = 'pan','pan123'
 
 def authentication(func):
-    def wrapper(*args,**kwargs):
+    # 增加*args和**kwargs只是为了拓展，以防后面增加参数
+    # def wrapper(*args,**kwargs):
+    def wrapper():
         username = input("pls enter your username：").strip()
         password = input('pls enter your password：').strip()
         if username=='pan' and password=='pan123':
-            print('\033[32;1m %s 登录成功\033[0m'%username)
-            return func(*args,**kwargs)
+            print('\033[31;1m %s 登录成功\033[0m'%username)
+            # return func(*args,**kwargs)
+            return func()
         else:
             exit('\033[31;1m 用户名或密码错误\033[0m')
     return wrapper
-
 
 def index(): # 软件的首页
     print("welcome to index page")
