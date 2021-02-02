@@ -14,6 +14,8 @@ class Dog(object):
 
     def talk(self):
         print("%s is talking"% self.name)
+
+
 d = Dog("ChenRonghua")
 d.eat(d)
 d.talk()
