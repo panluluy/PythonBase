@@ -1,0 +1,91 @@
+[ {
+  "uid" : "2a599917a1b5a00f",
+  "name" : "test_login[-tashi123]",
+  "time" : {
+    "start" : 1612356271579,
+    "stop" : 1612356271579,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed751f4473b6d882",
+  "name" : "test_login[tashi-]",
+  "time" : {
+    "start" : 1612356271460,
+    "stop" : 1612356271462,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "64f2e566f08c474b",
+  "name" : "test_login[Jerry-]",
+  "time" : {
+    "start" : 1612356271423,
+    "stop" : 1612356271424,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c207877b191216b",
+  "name" : "test_login[tashi-tashi123]",
+  "time" : {
+    "start" : 1612356271545,
+    "stop" : 1612356271546,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "26bb0e600811e593",
+  "name" : "test_login[Jerry-tashi123]",
+  "time" : {
+    "start" : 1612356271614,
+    "stop" : 1612356271615,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a9dde2760ada4cd",
+  "name" : "test_login[-]",
+  "time" : {
+    "start" : 1612356271309,
+    "stop" : 1612356271311,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e79569716554d4e",
+  "name" : "test_login[-123456]",
+  "time" : {
+    "start" : 1612356270863,
+    "stop" : 1612356270866,
+    "duration" : 3
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e48d01cb85b7ecd6",
+  "name" : "test_login[Jerry-123456]",
+  "time" : {
+    "start" : 1612356270847,
+    "stop" : 1612356270847,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "637c3aea1b6651af",
+  "name" : "test_login[tashi-123456]",
+  "time" : {
+    "start" : 1612356271505,
+    "stop" : 1612356271507,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,17 @@
+1.github下载allure：https://github.com/allure-framework/allure2/releases
+
+2.pip install allure-pytest
+
+3. 在测试执⾏期间收集结果
+pytest -s –q 指定的测试用例 --alluredir=./result/
+
+4. 测试完成后查看实际报告，在线看报告。
+allure serve ./result/
+
+5. 从结果⽣成报告，这是⼀个启动tomcat的服务，只⽣成报告
+allure generate ./result/ -o ./report/ --clean
+
+6. 覆盖路径加--clean
+
+7. 打开报告
+allure open -h 127.0.0.1 -p 8883 ./report/

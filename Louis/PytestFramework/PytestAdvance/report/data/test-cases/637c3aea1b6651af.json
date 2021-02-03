@@ -1,0 +1,101 @@
+{
+  "uid" : "637c3aea1b6651af",
+  "name" : "test_login[tashi-123456]",
+  "fullName" : "test_11_fixture_request_parameterize_1#test_login",
+  "historyId" : "201b787b7ef85339cacdcb3898e2bd80",
+  "time" : {
+    "start" : 1612356271505,
+    "stop" : 1612356271507,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert ('tashi' == 'Jerry'\n  - Jerry\n  + tashi)",
+  "statusTrace" : "user_name = 'tashi', pass_word = '123456'\n\n    @pytest.mark.parametrize(\"pass_word\",passwords,indirect=True)\n    @pytest.mark.parametrize(\"user_name\",usernames,indirect=True)\n    def test_login(user_name,pass_word):\n        username = user_name\n        password = pass_word\n        print(\"测试用例中登录的用户名为：%s，密码为：%s\"%(username,password))\n>       assert username==\"Jerry\" and password==\"123456\"\nE       AssertionError: assert ('tashi' == 'Jerry'\nE         - Jerry\nE         + tashi)\n\ntest_11_fixture_request_parameterize_1.py:30: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pass_word",
+    "time" : {
+      "start" : 1612356271505,
+      "stop" : 1612356271505,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "user_name",
+    "time" : {
+      "start" : 1612356271459,
+      "stop" : 1612356271459,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_11_fixture_request_parameterize_1"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DNKLDC6"
+  }, {
+    "name" : "thread",
+    "value" : "9336-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_11_fixture_request_parameterize_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "pass_word",
+    "value" : "'123456'"
+  }, {
+    "name" : "user_name",
+    "value" : "'tashi'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5bb80ec186856d76",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert ('tashi' == 'Jerry'\n  - Jerry\n  + tashi)",
+      "time" : {
+        "start" : 1612355961304,
+        "stop" : 1612355961304,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "637c3aea1b6651af.json",
+  "parameterValues" : [ "'123456'", "'tashi'" ]
+}

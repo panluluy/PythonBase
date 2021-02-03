@@ -1,0 +1,126 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_11_fixture_request_parameterize_1",
+    "children" : [ {
+      "name" : "test_login[Jerry-123456]",
+      "uid" : "e48d01cb85b7ecd6",
+      "parentUid" : "b76a909c20762a5b7cd925ac1c12761e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612356270847,
+        "stop" : 1612356270847,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'123456'", "'Jerry'" ]
+    }, {
+      "name" : "test_login[-123456]",
+      "uid" : "4e79569716554d4e",
+      "parentUid" : "b76a909c20762a5b7cd925ac1c12761e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1612356270863,
+        "stop" : 1612356270866,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'123456'", "''" ]
+    }, {
+      "name" : "test_login[-]",
+      "uid" : "6a9dde2760ada4cd",
+      "parentUid" : "b76a909c20762a5b7cd925ac1c12761e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1612356271309,
+        "stop" : 1612356271311,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "''", "''" ]
+    }, {
+      "name" : "test_login[Jerry-]",
+      "uid" : "64f2e566f08c474b",
+      "parentUid" : "b76a909c20762a5b7cd925ac1c12761e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1612356271423,
+        "stop" : 1612356271424,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "''", "'Jerry'" ]
+    }, {
+      "name" : "test_login[tashi-]",
+      "uid" : "ed751f4473b6d882",
+      "parentUid" : "b76a909c20762a5b7cd925ac1c12761e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1612356271460,
+        "stop" : 1612356271462,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "''", "'tashi'" ]
+    }, {
+      "name" : "test_login[tashi-123456]",
+      "uid" : "637c3aea1b6651af",
+      "parentUid" : "b76a909c20762a5b7cd925ac1c12761e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1612356271505,
+        "stop" : 1612356271507,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'123456'", "'tashi'" ]
+    }, {
+      "name" : "test_login[tashi-tashi123]",
+      "uid" : "2c207877b191216b",
+      "parentUid" : "b76a909c20762a5b7cd925ac1c12761e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1612356271545,
+        "stop" : 1612356271546,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'tashi123'", "'tashi'" ]
+    }, {
+      "name" : "test_login[-tashi123]",
+      "uid" : "2a599917a1b5a00f",
+      "parentUid" : "b76a909c20762a5b7cd925ac1c12761e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1612356271579,
+        "stop" : 1612356271579,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'tashi123'", "''" ]
+    }, {
+      "name" : "test_login[Jerry-tashi123]",
+      "uid" : "26bb0e600811e593",
+      "parentUid" : "b76a909c20762a5b7cd925ac1c12761e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1612356271614,
+        "stop" : 1612356271615,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'tashi123'", "'Jerry'" ]
+    } ],
+    "uid" : "b76a909c20762a5b7cd925ac1c12761e"
+  } ]
+}

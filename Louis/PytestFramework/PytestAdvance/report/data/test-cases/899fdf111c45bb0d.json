@@ -1,0 +1,86 @@
+{
+  "uid" : "899fdf111c45bb0d",
+  "name" : "test_login[-123456]",
+  "fullName" : "test_11_fixture_request_parameterize_1#test_login",
+  "historyId" : "2487b4a4616491802a3967d3508e0d88",
+  "time" : {
+    "start" : 1612355961011,
+    "stop" : 1612355961014,
+    "duration" : 3
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert ('' == 'Jerry'\n  - Jerry)",
+  "statusTrace" : "user_name = '', pass_word = '123456'\n\n    @pytest.mark.parametrize(\"pass_word\",passwords,indirect=True)\n    @pytest.mark.parametrize(\"user_name\",usernames,indirect=True)\n    def test_login(user_name,pass_word):\n        username = user_name\n        password = pass_word\n        print(\"测试用例中登录的用户名为：%s，密码为：%s\"%(username,password))\n>       assert username==\"Jerry\" and password==\"123456\"\nE       AssertionError: assert ('' == 'Jerry'\nE         - Jerry)\n\ntest_11_fixture_request_parameterize_1.py:30: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "user_name",
+    "time" : {
+      "start" : 1612355961011,
+      "stop" : 1612355961011,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "pass_word",
+    "time" : {
+      "start" : 1612355961001,
+      "stop" : 1612355961001,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_11_fixture_request_parameterize_1"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DNKLDC6"
+  }, {
+    "name" : "thread",
+    "value" : "19060-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_11_fixture_request_parameterize_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "pass_word",
+    "value" : "'123456'"
+  }, {
+    "name" : "user_name",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "899fdf111c45bb0d.json",
+  "parameterValues" : [ "'123456'", "''" ]
+}

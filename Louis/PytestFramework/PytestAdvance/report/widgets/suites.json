@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "118d3eceb4e80b6c5fa0572d34afcd26",
+    "name" : "test_11_fixture_request_parameterize_1",
+    "statistic" : {
+      "failed" : 8,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 9
+    }
+  } ]
+}

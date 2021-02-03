@@ -1,0 +1,129 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert ('' == 'Jerry'\n  - Jerry)",
+      "children" : [ {
+        "name" : "test_login[-123456]",
+        "uid" : "4e79569716554d4e",
+        "parentUid" : "c263dcaa161879128785da87fb443a11",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612356270863,
+          "stop" : 1612356270866,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'123456'", "''" ]
+      }, {
+        "name" : "test_login[-]",
+        "uid" : "6a9dde2760ada4cd",
+        "parentUid" : "c263dcaa161879128785da87fb443a11",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612356271309,
+          "stop" : 1612356271311,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "''" ]
+      }, {
+        "name" : "test_login[-tashi123]",
+        "uid" : "2a599917a1b5a00f",
+        "parentUid" : "c263dcaa161879128785da87fb443a11",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612356271579,
+          "stop" : 1612356271579,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'tashi123'", "''" ]
+      } ],
+      "uid" : "c263dcaa161879128785da87fb443a11"
+    }, {
+      "name" : "AssertionError: assert ('Jerry' == 'Jerry'\n    Jerry and '' == '123456'\n  - 123456)",
+      "children" : [ {
+        "name" : "test_login[Jerry-]",
+        "uid" : "64f2e566f08c474b",
+        "parentUid" : "5ac006d9ed443f965deda511d20d5ddb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612356271423,
+          "stop" : 1612356271424,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'Jerry'" ]
+      } ],
+      "uid" : "5ac006d9ed443f965deda511d20d5ddb"
+    }, {
+      "name" : "AssertionError: assert ('tashi' == 'Jerry'\n  - Jerry\n  + tashi)",
+      "children" : [ {
+        "name" : "test_login[tashi-]",
+        "uid" : "ed751f4473b6d882",
+        "parentUid" : "15f7ea56f62b1e6b6248ec6b3d7f510d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612356271460,
+          "stop" : 1612356271462,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'tashi'" ]
+      }, {
+        "name" : "test_login[tashi-123456]",
+        "uid" : "637c3aea1b6651af",
+        "parentUid" : "15f7ea56f62b1e6b6248ec6b3d7f510d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612356271505,
+          "stop" : 1612356271507,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'123456'", "'tashi'" ]
+      }, {
+        "name" : "test_login[tashi-tashi123]",
+        "uid" : "2c207877b191216b",
+        "parentUid" : "15f7ea56f62b1e6b6248ec6b3d7f510d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612356271545,
+          "stop" : 1612356271546,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'tashi123'", "'tashi'" ]
+      } ],
+      "uid" : "15f7ea56f62b1e6b6248ec6b3d7f510d"
+    }, {
+      "name" : "AssertionError: assert ('Jerry' == 'Jerry'\n    Jerry and 'tashi123' == '123456'\n  - 123456\n  + tashi123)",
+      "children" : [ {
+        "name" : "test_login[Jerry-tashi123]",
+        "uid" : "26bb0e600811e593",
+        "parentUid" : "12591a26d88c8f917496b1dafe04a45d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612356271614,
+          "stop" : 1612356271615,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'tashi123'", "'Jerry'" ]
+      } ],
+      "uid" : "12591a26d88c8f917496b1dafe04a45d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
