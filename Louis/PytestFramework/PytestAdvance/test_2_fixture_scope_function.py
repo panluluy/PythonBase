@@ -1,7 +1,5 @@
 __author__ = 'Louis-Pan'
-
 import pytest
-
 """
 使用场景：有的用例需要登录执行，有些用例不需要登录执行
 用例在执行时需要登录的用例，都需要执行login函数，相当于unittest中setUp()函数，每条用例运行前都需要执行

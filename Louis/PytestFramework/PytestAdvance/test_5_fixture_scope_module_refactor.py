@@ -11,13 +11,13 @@ def open_browser():
     print("执行teardown")
     print("关闭浏览器")
 
-def test_update_person_info(login):
+def test_update_person_info():
     print("修改的测试用例")
 
 def test_search():
     print("查询的测试用例")
 
-def test_add_to_car(login):
+def test_add_to_car():
     print("加入购物车的测试用例")
 
 if __name__=="__main__":

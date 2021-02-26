@@ -1,31 +1,23 @@
 __author__ = 'Louis-Pan'
-
 import pytest
-
 
 def setup_module():
     print('整个模块.py开始')
 
-
 def teardown_module():
     print('整个模块.py结束')
-
 
 def setup_function():
     print('不在类中的函数前')
 
-
 def teardown_function():
     print('不在类中的函数后')
-
 
 def test_w_one():
     print('不在类中的方法1')
 
-
 def test_w_two():
     print('不在类中的方法2')
-
 
 class TestClass:
     def setup_class(self):
@@ -52,7 +44,6 @@ class TestClass:
         a = "hello"
         b = "hello world"
         assert a in b
-
 
 if __name__ == '__main__':
     # -s带控制台输出结果，输出print()信息

@@ -28,4 +28,4 @@ def test_add_to_car_case(login):
     print("加入购物车的测试用例")
 
 if __name__=="__main__":
-    pytest.main(["-s",'test_4_fixture_scope_module.py'])
+    pytest.main(["-s","-v",'test_4_fixture_scope_module.py'])

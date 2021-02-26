@@ -4,7 +4,7 @@ import pytest
 import sys
 
 def test_soso(login):
-    print('case1: 登际后执行搜索')
+    print('case1: 登录后执行搜索')
     assert 1 == 1
     assert {'name': 'linda', 'age': 18} == {'name': 'linda', 'age': 188}
     a = 'hello'
@@ -36,11 +36,9 @@ def test_cart_3(login):
 def test_cart(login):
     print('case3,登陆，点击苹果图标，3.6以下版本无法执行')
 
-
 @pytest.mark.xfail
 def test_xfail():
     print(broken_fixture())
-
 
 def broken_fixture():
     raise Exception("Sorry, it's 中断异常.")
