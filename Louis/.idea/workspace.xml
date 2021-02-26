@@ -5,26 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2236235-cd4a-4e80-821d-bba8fb71b56b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/PythonBase.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PytestFramework/WebUIDemo/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PytestFramework/WebUIDemo/test_ecshop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Louis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Louis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PytestFramework/PytestAdvance/test_12_mark_skipif.py" beforeDir="false" afterPath="$PROJECT_DIR$/PytestFramework/PytestAdvance/test_12_mark_skipif.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PytestFramework/PytestAdvance/test_14_run_condition_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/PytestFramework/PytestAdvance/test_14_run_condition_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PytestFramework/PytestAdvance/test_1_run_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/PytestFramework/PytestAdvance/test_1_run_sequence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PytestFramework/PytestAdvance/test_2_fixture_scope_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/PytestFramework/PytestAdvance/test_2_fixture_scope_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PytestFramework/PytestAdvance/test_3_fixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/PytestFramework/PytestAdvance/test_3_fixture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PytestFramework/PytestAdvance/test_4_fixture_scope_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/PytestFramework/PytestAdvance/test_4_fixture_scope_module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PytestFramework/PytestAdvance/test_5_fixture_scope_module_refactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/PytestFramework/PytestAdvance/test_5_fixture_scope_module_refactor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PytestFramework/PytestAdvance/test_8_fixture_high_parameterize.py" beforeDir="false" afterPath="$PROJECT_DIR$/PytestFramework/PytestAdvance/test_8_fixture_high_parameterize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PytestFramework/WebUIDemo/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/PytestFramework/WebUIDemo/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PytestFramework/WebUIDemo/test_51job.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PytestFramework/WebUIDemo/test_baidu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PytestFramework/WebUIDemo/test_jd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PytestFramework/WebUIDemo/test_taobao.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,11 +160,18 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="421" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614327578381">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="421" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1614327578381" />
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1614328106654">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1614328106654" />
     <state width="1345" height="380" key="GridCell.Tab.0.bottom" timestamp="1614326673194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -200,5 +192,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1614301177267" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1614328118773">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1614328118773" />
   </component>
 </project>
