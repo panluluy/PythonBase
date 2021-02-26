@@ -1,0 +1,140 @@
+{
+  "uid" : "f25746702e7a42ad",
+  "name" : "test_login_password_wrong",
+  "fullName" : "test_ecshop.TestEcshop#test_login_password_wrong",
+  "historyId" : "7e74c5cc0c5e740cdd8046855a8a047f",
+  "time" : {
+    "start" : 1614331818872,
+    "stop" : 1614331822322,
+    "duration" : 3450
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1614331816182,
+      "stop" : 1614331817284,
+      "duration" : 1102
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start",
+    "time" : {
+      "start" : 1614331817284,
+      "stop" : 1614331818872,
+      "duration" : 1588
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step one:打开浏览器输入Ecshop网址",
+      "time" : {
+        "start" : 1614331817284,
+        "stop" : 1614331818872,
+        "duration" : 1588
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step two：输入正确的用户名和错误的密码",
+      "time" : {
+        "start" : 1614331818872,
+        "stop" : 1614331822322,
+        "duration" : 3450
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Ecshop登录功能"
+  }, {
+    "name" : "story",
+    "value" : "正确的用户名，错误的密码"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite",
+    "value" : "test_ecshop"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestEcshop"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NREU2RV"
+  }, {
+    "name" : "thread",
+    "value" : "20580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_ecshop"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cc6623b6a620c984",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614331652181,
+        "stop" : 1614331655620,
+        "duration" : 3439
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f25746702e7a42ad.json",
+  "parameterValues" : [ ]
+}

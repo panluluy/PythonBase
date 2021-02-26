@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_ecshop",
+    "children" : [ {
+      "name" : "test_login_success",
+      "uid" : "327ef823bb6f4f20",
+      "parentUid" : "d5e5e074ccdb9fba0b6abe4685419b79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614331804832,
+        "stop" : 1614331808276,
+        "duration" : 3444
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login_username_wrong",
+      "uid" : "b25ad60442dfcda8",
+      "parentUid" : "d5e5e074ccdb9fba0b6abe4685419b79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614331812677,
+        "stop" : 1614331816176,
+        "duration" : 3499
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login_password_wrong",
+      "uid" : "f25746702e7a42ad",
+      "parentUid" : "d5e5e074ccdb9fba0b6abe4685419b79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614331818872,
+        "stop" : 1614331822322,
+        "duration" : 3450
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login_username_empty",
+      "uid" : "2f5f8b361938f416",
+      "parentUid" : "d5e5e074ccdb9fba0b6abe4685419b79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614331826720,
+        "stop" : 1614331829947,
+        "duration" : 3227
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login_password_empty",
+      "uid" : "6edb8966bbe77193",
+      "parentUid" : "d5e5e074ccdb9fba0b6abe4685419b79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614331834302,
+        "stop" : 1614331837503,
+        "duration" : 3201
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d5e5e074ccdb9fba0b6abe4685419b79"
+  } ]
+}

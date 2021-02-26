@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Feb 26 17:30:34 CST 2021","Fri Feb 26 17:30:37 CST 2021","3201","","test_ecshop","TestEcshop","","","test_login_password_empty",""
+"passed","Fri Feb 26 17:30:18 CST 2021","Fri Feb 26 17:30:22 CST 2021","3450","","test_ecshop","TestEcshop","","","test_login_password_wrong",""
+"passed","Fri Feb 26 17:30:26 CST 2021","Fri Feb 26 17:30:29 CST 2021","3227","","test_ecshop","TestEcshop","","","test_login_username_empty",""
+"passed","Fri Feb 26 17:30:04 CST 2021","Fri Feb 26 17:30:08 CST 2021","3444","","test_ecshop","TestEcshop","","","test_login_success",""
+"passed","Fri Feb 26 17:30:12 CST 2021","Fri Feb 26 17:30:16 CST 2021","3499","","test_ecshop","TestEcshop","","","test_login_username_wrong",""

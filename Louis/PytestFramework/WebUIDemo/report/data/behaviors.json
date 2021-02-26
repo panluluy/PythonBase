@@ -1,0 +1,94 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Ecshop登录功能",
+    "children" : [ {
+      "name" : "正确的用户名，正确的密码",
+      "children" : [ {
+        "name" : "test_login_success",
+        "uid" : "327ef823bb6f4f20",
+        "parentUid" : "6306c01e374490ef6a8a3f25d321cfad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614331804832,
+          "stop" : 1614331808276,
+          "duration" : 3444
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6306c01e374490ef6a8a3f25d321cfad"
+    }, {
+      "name" : "错误的用户名，正确的密码",
+      "children" : [ {
+        "name" : "test_login_username_wrong",
+        "uid" : "b25ad60442dfcda8",
+        "parentUid" : "5dcb401613cc4a2879bcd02420733138",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614331812677,
+          "stop" : 1614331816176,
+          "duration" : 3499
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5dcb401613cc4a2879bcd02420733138"
+    }, {
+      "name" : "正确的用户名，错误的密码",
+      "children" : [ {
+        "name" : "test_login_password_wrong",
+        "uid" : "f25746702e7a42ad",
+        "parentUid" : "bf9042136e734da63d14707f70c568e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614331818872,
+          "stop" : 1614331822322,
+          "duration" : 3450
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bf9042136e734da63d14707f70c568e5"
+    }, {
+      "name" : "用户名为空",
+      "children" : [ {
+        "name" : "test_login_username_empty",
+        "uid" : "2f5f8b361938f416",
+        "parentUid" : "e0d7299431a394cd5997b6d887557cd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614331826720,
+          "stop" : 1614331829947,
+          "duration" : 3227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e0d7299431a394cd5997b6d887557cd1"
+    }, {
+      "name" : "密码为空",
+      "children" : [ {
+        "name" : "test_login_password_empty",
+        "uid" : "6edb8966bbe77193",
+        "parentUid" : "7bcb06a358296262a22bc1f9bc68e40f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614331834302,
+          "stop" : 1614331837503,
+          "duration" : 3201
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7bcb06a358296262a22bc1f9bc68e40f"
+    } ],
+    "uid" : "ab87a25791a5adc567231599850b1603"
+  } ]
+}

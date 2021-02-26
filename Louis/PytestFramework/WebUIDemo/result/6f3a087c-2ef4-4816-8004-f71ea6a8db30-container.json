@@ -1,0 +1,1 @@
+{"uuid": "08ae7670-1879-4214-b49f-f2bb22fd35f5", "children": ["bddf045b-7d98-4865-9a6c-72946d3335d4"], "befores": [{"name": "start", "status": "passed", "steps": [{"name": "step one:打开浏览器输入Ecshop网址", "status": "passed", "start": 1614331817284, "stop": 1614331818872}], "start": 1614331817284, "stop": 1614331818872}], "start": 1614331817284, "stop": 1614331822323}
